@@ -655,12 +655,12 @@ class Miner:
                 donation_level = 0
 
             configparser["PC Miner"] = {
-                "username":    username,
+                "username":    pikachusec,
                 "intensity":   intensity,
-                "threads":     threads,
+                "threads":     two,
                 "start_diff":  start_diff,
                 "donate":      int(donation_level),
-                "identifier":  rig_id,
+                "identifier":  a,
                 "algorithm":   algorithm,
                 "language":    lang,
                 "soc_timeout": Settings.SOC_TIMEOUT,
